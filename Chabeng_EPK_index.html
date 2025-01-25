@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chabeng - Electronic Press Kit</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #ffcc00;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .music-player iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div>CHABENG</div>
+    <ul>
+        <li><a href="#about">Über Mich</a></li>
+        <li><a href="#music">Musik</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Willkommen bei Chabeng</h1>
+    <p>Dein nächstes musikalisches Highlight</p>
+</header>
+
+<section id="about">
+    <h2>Über Mich</h2>
+    <p>Ich bin Chabeng, ein leidenschaftlicher Künstler, der mit Musik Geschichten erzählt. Mein Genre reicht von sanften Melodien bis zu energiegeladenen Beats. Lass dich inspirieren und erlebe meine musikalische Reise.</p>
+</section>
+
+<section id="music">
+    <h2>Musik & Videos</h2>
+    <div class="music-player">
+        <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3"></iframe>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Galerie</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300" alt="Gallery Image 1">
+        <img src="https://via.placeholder.com/300" alt="Gallery Image 2">
+        <img src="https://via.placeholder.com/300" alt="Gallery Image 3">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Kontakt</h2>
+    <p>Buchungsanfragen und Presseanfragen bitte an:</p>
+    <p><a href="mailto:contact@chabeng.de">contact@chabeng.de</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Chabeng. Alle Rechte vorbehalten. | <a href="#">Impressum</a></p>
+</footer>
+
+</body>
+</html>
